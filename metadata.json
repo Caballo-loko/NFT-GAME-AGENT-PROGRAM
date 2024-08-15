@@ -1,0 +1,41 @@
+{
+  "name": "AI Agent",
+  "symbol": "AIA",
+  "description": "A trained AI agent for playing fighting games",
+  "seller_fee_basis_points": 500,
+  "image": "https://example.com/images/ai_agent.png",
+  "external_url": "https://example.com/ai_agents/1",
+  "attributes": [
+    {
+      "trait_type": "Training Strategy",
+      "value": "PPO"
+    },
+    {
+      "trait_type": "Model Version",
+      "value": "1.0"
+    },
+    {
+      "trait_type": "Training Episodes",
+      "value": 1000
+    },
+    {
+      "trait_type": "Game",
+      "value": "Mortal Kombat II"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://example.com/models/agent_model_v1.onnx",
+        "type": "application/onnx"
+      }
+    ],
+    "category": "AI Model",
+    "creators": [
+      {
+        "address": "CVfk5WQmCAJHnuFJdTk5ikxXj4KWaobmPYQCqNWujMzT",
+        "share": 100
+      }
+    ]
+  }
+}
